@@ -9,8 +9,7 @@ class Static():
 	@staticmethod
 	def _menuAccionesImgFalse():
 		print("--ACCIONES--")
-		print("1) Cambiar directorio")
-		print("2) Salir")
+		print("1) Salir")
 		opc = int(input(">>> "))
 		return opc
 
@@ -18,7 +17,6 @@ class Static():
 	def _menuAccionesImgTrue():
 		print("--ACCIONES--")
 		print("1) Convertir imagenes a pdf")
-		print("2) Cambiar directorio")
-		print("3) Salir")
+		print("2) Salir")
 		opc = int(input(">>> "))
 		return opc

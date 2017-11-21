@@ -31,9 +31,6 @@ class File():
 						self.convertImagenes(nombre, ruta, dirs)
 
 					elif opc == 2:
-						pass
-
-					elif opc == 3:
 						fin = True
 					else:
 						print("Debes seleccionar una opcion valida")
@@ -42,8 +39,6 @@ class File():
 					opc = Static._menuAccionesImgFalse()
 
 					if opc == 1:
-						pass
-					elif opc == 2:
 						fin = True
 					else:
 						print("Debes seleccionar una opcion valida")
